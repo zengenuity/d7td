@@ -16,5 +16,9 @@
   width: 240px;
 }
 #content {
-  width: 720px;
+  width: 480px;
+}
+#sidebar-second {
+  float: left;
+  width: 240px;
 }
