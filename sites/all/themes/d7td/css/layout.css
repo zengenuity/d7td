@@ -31,3 +31,10 @@ body.two-sidebars #content {
 body.no-sidebars #content {
   width: 960px;
 }
+#navigation #secondary-menu {
+  float: right;
+  margin: 0;
+}
+#navigation {
+  padding: 10px 0;
+}
