@@ -37,3 +37,8 @@ body {
 #header {
   background: #F8F5F1;
 }
+#super-header {
+  background: #f00;
+  color: #fff;
+  font-size: 3em;
+}

@@ -51,11 +51,6 @@
   <title><?php print $head_title; ?></title>
   <?php print $styles; ?>
   <?php print $scripts; ?>
-  <script type="text/javascript">
-    jQuery(document).ready(function() { 
-	jQuery.fool('wonky'); 
-    });
-  </script>
 </head>
 <body class="<?php print $classes; ?>" <?php print $attributes;?>>
   <div id="skip-link">

@@ -74,6 +74,12 @@
 ?>
 
   <div id="page-wrapper"><div id="page">
+      
+    <?php if ($page['super_header']): ?>
+      <div id="super-header"><div class="section">
+        <?php print render($page['super_header']); ?>
+      </div></div> <!-- /.section, /#super-header -->
+    <?php endif; ?>
 
     <div id="header"><div class="section clearfix">
 

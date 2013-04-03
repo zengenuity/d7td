@@ -92,3 +92,8 @@ div.messages {
 .node .submitted {
   margin-bottom: 10px;
 }
+#super-header div.section {
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+}
