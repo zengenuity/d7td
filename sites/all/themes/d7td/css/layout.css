@@ -81,3 +81,14 @@ ul#main-menu li.first {
 div.messages {
   margin: 20px;
 }
+.node .user-picture img {
+  width: 20px;
+  height: 20px;
+}
+.node .user-picture {
+  float: left;
+  margin-right: 10px;
+}
+.node .submitted {
+  margin-bottom: 10px;
+}
