@@ -97,3 +97,19 @@ div.messages {
   margin-left: auto;
   margin-right: auto;
 }
+#postscript {
+  margin-top: 15px;
+}
+#postscript div.section {
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#postscript .block {
+  float: left;
+  width: 300px;
+  margin-right: 20px;
+}
+#footer {
+  margin-top: 0;
+}

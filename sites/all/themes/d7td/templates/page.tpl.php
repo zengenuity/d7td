@@ -156,6 +156,12 @@
 
     </div></div> <!-- /#main, /#main-wrapper -->
 
+    <?php if ($page['postscript']): ?>
+      <div id="postscript"><div class="section clearfix">
+        <?php print render($page['postscript']); ?>
+      </div></div> <!-- /.section, /#postscript -->
+    <?php endif; ?>
+    
     <div id="footer"><div class="section">
       <?php print render($page['footer']); ?>
     </div></div> <!-- /.section, /#footer -->

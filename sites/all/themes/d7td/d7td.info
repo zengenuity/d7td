@@ -20,4 +20,6 @@ regions[content] = Content
 regions[sidebar_first] = Sidebar first
 regions[sidebar_second] = Sidebar second
 
+regions[postscript] = Postscript
+
 regions[footer] = Footer

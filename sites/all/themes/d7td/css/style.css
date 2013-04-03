@@ -42,3 +42,13 @@ body {
   color: #fff;
   font-size: 3em;
 }
+#postscript {
+  background: #4B4233;
+  color: #fff;
+}
+#postscript a {
+  color: #fff;
+}
+#postscript table tr {
+  background: transparent;
+}
