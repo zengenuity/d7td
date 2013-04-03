@@ -1,3 +1,6 @@
+body {
+  margin: 0;
+}
 #header div.section,
 #navigation div.section,
 #breadcrumb,
@@ -37,6 +40,9 @@ body.no-sidebars #content {
 }
 #navigation {
   padding: 10px 0;
+}
+#navigation h2 {
+  display: none;
 }
 #logo {
   float: left;
