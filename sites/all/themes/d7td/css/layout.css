@@ -22,3 +22,12 @@
   float: left;
   width: 240px;
 }
+body.one-sidebar #content {
+  width: 720px;
+}
+body.two-sidebars #content {
+  width: 480px;
+}
+body.no-sidebars #content {
+  width: 960px;
+}
