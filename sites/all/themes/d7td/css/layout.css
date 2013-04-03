@@ -38,3 +38,12 @@ body.no-sidebars #content {
 #navigation {
   padding: 10px 0;
 }
+#logo {
+  float: left;
+  margin-right: 10px;
+}
+#name-and-slogan h1#site-name,
+#name-and-slogan #site-name {
+  font-size: 2em;
+  margin: 20px 0;
+}
