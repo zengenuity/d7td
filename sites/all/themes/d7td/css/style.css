@@ -31,3 +31,9 @@ a {
 #navigation a {
   text-decoration: none;
 }
+body {
+  background-image: url(../images/bg-texture.png);
+}
+#header {
+  background: #F8F5F1;
+}
