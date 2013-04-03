@@ -53,3 +53,9 @@ body.no-sidebars #content {
   font-size: 2em;
   margin: 20px 0;
 }
+.block-inner {
+  margin: 0 20px;
+}
+h1#page-title {
+  margin: 20px;
+}
