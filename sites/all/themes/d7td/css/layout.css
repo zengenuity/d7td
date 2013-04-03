@@ -59,3 +59,22 @@ body.no-sidebars #content {
 h1#page-title {
   margin: 20px;
 }
+#navigation {
+  margin-bottom: 15px;
+}
+#breadcrumb {
+  margin-bottom: 5px;
+}
+ul#main-menu li.first {
+  padding-left: 0;
+}
+#footer {
+  margin-top: 15px;
+}
+#footer div.section {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+#footer #block-system-powered-by .block-inner {
+  margin: 0;
+}
