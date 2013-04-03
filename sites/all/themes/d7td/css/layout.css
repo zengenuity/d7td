@@ -78,3 +78,6 @@ ul#main-menu li.first {
 #footer #block-system-powered-by .block-inner {
   margin: 0;
 }
+div.messages {
+  margin: 20px;
+}
