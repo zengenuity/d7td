@@ -37,3 +37,62 @@ body {
 #postscript table tr {
   background: transparent;
 }
+
+/** Lesson 3 **/
+.custom-body-summary {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+h2.summary-title {
+  margin-bottom: 0;
+}
+
+table tr td,
+table tr th {
+  padding: 4px 10px;
+}
+
+.view-users-list span.user-active {
+  color: green;
+}
+.view-users-list span.user-blocked {
+  color: red;
+}
+.view-users-list tr.user-blocked {
+  background: #fcc;
+}
+
+/** Lesson 4 **/
+.node-article .group-left {
+  width: 250px;
+  word-wrap: break-word;
+  margin-right: 20px;
+}
+.node-article .group-right {
+  width: 650px;
+}
+
+.bird-on-it {
+  padding-top: 40px;
+  background: url(../images/bird.gif) right top no-repeat;
+}
+.in-a-box {
+  padding: 20px;
+  background: #fff;
+  box-shadow: 0 1px 3px #BBBBBB;
+}
+
+.view-activity-feed .views-row {
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.node.view-mode-activity .group-left {
+  width: 250px;
+  word-wrap: break-word;
+  margin-right: 20px;
+}
+.node.view-mode-activity .group-right {
+  width: 650px;
+}
