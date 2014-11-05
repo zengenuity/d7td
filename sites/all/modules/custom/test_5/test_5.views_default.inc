@@ -1,13 +1,13 @@
 <?php
 /**
  * @file
- * test_4.views_default.inc
+ * test_5.views_default.inc
  */
 
 /**
  * Implements hook_views_default_views().
  */
-function test_4_views_default_views() {
+function test_5_views_default_views() {
   $export = array();
 
   $view = new view();
@@ -35,21 +35,6 @@ function test_4_views_default_views() {
   $handler->display->display_options['style_options']['row_class'] = 'article-summary';
   $handler->display->display_options['style_options']['default_row_class'] = FALSE;
   $handler->display->display_options['style_options']['row_class_special'] = FALSE;
-  $handler->display->display_options['row_plugin'] = 'ds';
-  $handler->display->display_options['row_options']['load_comments'] = 0;
-  $handler->display->display_options['row_options']['alternating'] = 1;
-  $handler->display->display_options['row_options']['grouping'] = 0;
-  $handler->display->display_options['row_options']['advanced'] = 0;
-  $handler->display->display_options['row_options']['delta_fieldset']['delta_fields'] = array();
-  $handler->display->display_options['row_options']['grouping_fieldset']['group_field'] = 'node|created';
-  $handler->display->display_options['row_options']['default_fieldset']['view_mode'] = 'teaser';
-  $handler->display->display_options['row_options']['alternating_fieldset']['alternating'] = TRUE;
-  $handler->display->display_options['row_options']['alternating_fieldset']['item_0'] = 'full';
-  $handler->display->display_options['row_options']['alternating_fieldset']['item_1'] = 'full';
-  $handler->display->display_options['row_options']['alternating_fieldset']['item_6'] = 'activity';
-  $handler->display->display_options['row_options']['alternating_fieldset']['item_7'] = 'activity';
-  $handler->display->display_options['row_options']['alternating_fieldset']['item_8'] = 'activity';
-  $handler->display->display_options['row_options']['alternating_fieldset']['item_9'] = 'activity';
   /* Relationship: Content: Author */
   $handler->display->display_options['relationships']['uid']['id'] = 'uid';
   $handler->display->display_options['relationships']['uid']['table'] = 'node';
