@@ -21,3 +21,5 @@ regions[sidebar_second] = Sidebar second
 
 regions[postscript] = Postscript
 regions[footer] = Footer
+
+settings[d7td_articles_red] = 1

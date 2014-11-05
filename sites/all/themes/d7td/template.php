@@ -61,12 +61,25 @@ function d7td_preprocess_node(&$variables) {
     $comment_username = theme('username', array('account' => $comment_user));
     $variables['comment_info'] = t('Comment Count: @count, Last Comment By: !commenter', array('@count' => $variables['comment_count'], '!commenter' => $comment_username));
   }
+  $variables['theme_hook_suggestions'][] = 'node__testing';
+ 
   
 }
 
 function d7td_preprocess_html(&$variables) {
   if ($GLOBALS['user']->uid == 1) {
     drupal_add_css(drupal_get_path('theme', 'd7td') . '/css/superadmin.css');
+  }
+  
+  if (theme_get_setting('d7td_articles_red')) {
+    drupal_add_css('.node-article.node-teaser > h2 > a { color: red; }',
+      array(
+        'group' => CSS_THEME,
+        'type' => 'inline',
+        'media' => 'screen',
+        'weight' => '9999',
+      )
+    );
   }
 }
 
